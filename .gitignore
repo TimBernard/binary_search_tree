@@ -3,6 +3,9 @@
 [._]s[a-w][a-z]
 *.un
 
+# Executables to ignore
+test_tree
+
 # Ignore CMake files 
 build/bin/
 build/lib/	
