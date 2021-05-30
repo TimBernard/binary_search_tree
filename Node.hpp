@@ -5,9 +5,11 @@ class Node {
   public: 
 
     Node(int);
-    Node* parent; 
+    ~Node();
+    //Node* parent; 
     Node* left; 
     Node* right; 
     int key; 
+    //int depth; 
 };
 #endif /* NODE_H */
